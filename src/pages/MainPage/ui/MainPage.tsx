@@ -1,11 +1,7 @@
-import React from 'react';
+const text = 'MainPage';
 
-const MainPage = () => {
-    return (
-        <div>
-            MainPage
-        </div>
-    );
-};
+const MainPage = () => (
+    <div>{text}</div>
+);
 
 export default MainPage;
